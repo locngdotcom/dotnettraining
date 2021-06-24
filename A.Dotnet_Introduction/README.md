@@ -50,4 +50,3 @@
 | .NET Core 3.1	| December 3, 2019	|
 | .NET 5	| November 10, 2020	|
 | .NET 6	(Preview) | 	|
-| .NET 6
