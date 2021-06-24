@@ -1,7 +1,7 @@
 # A. [Dotnet Introduction](https://github.com/locngdotcom/dotnettraining/tree/main/A.Dotnet_Introduction)
 
 # B. [Web App - ASP.NET MVC](https://github.com/locngdotcom/dotnettraining/tree/main/B.Web_App)
-  ### Introduce ASP.NET MVC Core
+  ### 1. Introduce ASP.NET MVC
   ### 2. Project Structure
   ### 3. Razor Engine
   ### 4. Routing
