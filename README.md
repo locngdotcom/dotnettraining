@@ -4,7 +4,7 @@
       - Controller 
       - View 
       - Model
-## 3. [Razor Engine] (https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0)
+## 3. [Razor Engine](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0)
 ## 4. Routing
 ## 5. Middle Ware
 ## 6. Filters
