@@ -42,8 +42,12 @@
 | 4.7	|	2017-04-05 |
 | 4.7.1		|2017-10-17 |
 
-
-.NET Core 3.0 (Preview)
-.NET Core 2.2
-.NET Core 2.1
 .NET Core 1.0
+.NET Core 1.1
+.NET Core 2.0
+.NET Core 2.1
+.NET Core 2.2
+.NET Core 3.0 (Preview)
+.NET Core 3.1
+.NET 5
+.NET 6
