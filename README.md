@@ -1,4 +1,6 @@
-# A. Web App - ASP.NET MVC
+# A. [Dotnet Introduction](https://medium.com/net-core/introduction-to-net-core-adbf1962d57d)
+
+# B. Web App - ASP.NET MVC
 ## 1. [Introduce MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio) - Life cycle 
 ## 2. [Project Structure](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
       - Controller 
@@ -13,5 +15,5 @@
       - [DI & IoC](https://alexalvess.medium.com/dependency-injection-and-inversion-of-control-on-net-core-3136fe98b72)
 ## 9. [Authentication - ASP.NET Core Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-5.0&tabs=visual-studio)
 
-# B. Web API
+# C. Web API
 
