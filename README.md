@@ -1,4 +1,4 @@
-# A. [Dotnet Introduction](https://medium.com/net-core/introduction-to-net-core-adbf1962d57d)
+# A. [Dotnet Introduction](https://github.com/locngdotcom/dotnettraining/tree/main/A.Dotnet_Introduction)
 
 # B. Web App - ASP.NET MVC
 ## 1. [Introduce MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio) - Life cycle 
