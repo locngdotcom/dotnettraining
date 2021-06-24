@@ -4,13 +4,14 @@
       - Controller 
       - View 
       - Model
-## 3. Razor Engine
-## 4. Middle Ware
-## 5. Filters
-## 6. Validation
-## 7. Dependency Injection
-## 8. Web API
-## 9. Authentication
+## 3. [Razor Engine] (https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0)
+## 4. Routing
+## 5. Middle Ware
+## 6. Filters
+## 7. Validation
+## 8. Dependency Injection
+## 9. Web API
+## 10. Authentication
 
 # Web API
 
