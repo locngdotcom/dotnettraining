@@ -40,14 +40,14 @@
 | 4.6.1	|	2015-11-17 |
 | 4.6.2	|	2016-08-02 |
 | 4.7	|	2017-04-05 |
-| 4.7.1		|2017-10-17 |
-
-.NET Core 1.0
-.NET Core 1.1
-.NET Core 2.0
-.NET Core 2.1
-.NET Core 2.2
-.NET Core 3.0 (Preview)
-.NET Core 3.1
-.NET 5
-.NET 6
+| 4.7.1	| 2017-10-17 |
+| .NET Core 1.0	| 	June 27, 2016 |
+| .NET Core 1.1	| November 16, 2016	|
+| .NET Core 2.0	| August 14, 2017	|
+| .NET Core 2.1	| May 30, 2018 |
+| .NET Core 2.2	| December 4, 2018	|
+| .NET Core 3.0	| September 23, 2019	|
+| .NET Core 3.1	| December 3, 2019	|
+| .NET 5	| November 10, 2020	|
+| .NET 6	(Preview) | 	|
+| .NET 6
