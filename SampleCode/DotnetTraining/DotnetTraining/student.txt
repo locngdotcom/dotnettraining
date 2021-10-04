@@ -1,0 +1,1 @@
+[{"Id":"47510f5c-26ae-4a1a-87ec-a6fb0c286d03","Name":"Nguyen Van B","Class":"Rookies"},{"Id":"a3427f0f-3432-44e4-9ce6-1221f9a55409","Name":"Nguyen Van C","Class":"Rookies"},{"Id":"611a4f45-af63-432c-917a-0cac4ce4dd9f","Name":"Nguyen Van A","Class":"Class 1"}]

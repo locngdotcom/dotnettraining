@@ -1,7 +1,6 @@
 ﻿@using DotnetTraining.Models
 @model List<Student>
 @{
-    var tag = (SWTag)ViewBag.tag;
     ViewData["Title"] = "Home Page";
 }
 
@@ -11,13 +10,15 @@
 </div>
 
 <div>
-    <span>@tag.TagName</span>
-
+    <div>
+        <a href="~/Student/create">Create Student</a>
+    </div>
     @foreach (var item in Model)
     {
         <p>
-            <span>@item.Name</span><br />
-            <span>@item.Class</span>
+            <span>@item.Name</span> - <span>@item.Class</span>
+            <a href="~/Student/@item.Id " title="Edit">Edit</a>
+            <a href="~/Student/@item.Id/delete" title="Delete">Delete</a> <br />
         </p>
     }
 </div>

@@ -20,11 +20,23 @@ namespace DotnetTraining.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var student1 = new Student { Class = "Rookies", Name = "Nguyen Van A" };
+            var student2 = new Student { Class = "Rookies", Name = "Nguyen Van B" };
+            var student3 = new Student { Class = "Rookies", Name = "Nguyen Van C" };
+            var listOfStudents = new List<Student>();
+            listOfStudents.Add(student1);
+            listOfStudents.Add(student2);
+            listOfStudents.Add(student3);
+
+            var tag = new SWTag { TagName = "tag1", Description = "tag1" };
+            ViewBag.tag = tag;
+
+            return View(listOfStudents);
         }
 
         public IActionResult Privacy()
         {
+            ViewData["Layout"] = "_LayoutRookie";
             return View();
         }
 

@@ -1,0 +1,46 @@
+﻿@using DotnetTraining.Models
+@model Student
+@{
+    ViewData["Title"] = "Student Detail";
+}
+
+<div class="content">
+    <div class="animated fadeIn">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Sửa bài viết</strong>
+                    </div>
+
+                    <div class="card-body card-block">
+                        <form action="~/student/@Model.Id" method="post" enctype="multipart/form-data" class="form-horizontal">
+                            <div class="card-body card-block">
+
+                                <input type="hidden" value="@Model.Id" name="Id" />
+                                <div class="row form-group">
+                                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Name</label></div>
+                                    <div class="col-12 col-md-9"><input type="text" id="text-input" name="Name" value="@Model.Name" placeholder="" class="form-control"></div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col col-md-3"><label for="text-input" class=" form-control-label">Class</label></div>
+                                    <div class="col-12 col-md-9"><input type="text" id="text-input" name="Class" value="@Model.Class" placeholder="" class="form-control"></div>
+                                </div>
+                            </div>
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    <i class="fa fa-dot-circle-o"></i> Submit
+                                </button>
+                                <button type="button" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-ban"></i> Reset
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
