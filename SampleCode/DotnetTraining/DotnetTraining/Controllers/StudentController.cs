@@ -49,6 +49,11 @@ namespace DotnetTraining.Controllers
         [HttpPost("Student/Create")]
         public IActionResult CreateStudent([FromForm] Student request)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(request);
+            }
+
             var listOfStudents = GetStudentData();
             request.Id = Guid.NewGuid().ToString();
             listOfStudents.Add(request);
