@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetTraining", "DotnetTraining\DotnetTraining.csproj", "{7065F5C7-3062-4E8A-931E-2AC080959667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetTraining", "DotnetTraining\DotnetTraining.csproj", "{7065F5C7-3062-4E8A-931E-2AC080959667}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{633BB73E-6714-475E-9461-41E4AA6FB9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetTraining.Services.Student", "DotnetTraining.Services.Student\DotnetTraining.Services.Student.csproj", "{080C1DC2-5857-4D38-8396-B80983FEBE34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{B7E7F00A-923E-4075-941C-F8AE8C8D1F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetTraining.Entity", "DotnetTraining.Entity\DotnetTraining.Entity.csproj", "{8BD87DA1-E8F5-4C77-921E-A484D59346FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D1896C6B-31BE-4459-ABA1-BC8321406BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,25 @@ Global
 		{7065F5C7-3062-4E8A-931E-2AC080959667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7065F5C7-3062-4E8A-931E-2AC080959667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7065F5C7-3062-4E8A-931E-2AC080959667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080C1DC2-5857-4D38-8396-B80983FEBE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080C1DC2-5857-4D38-8396-B80983FEBE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080C1DC2-5857-4D38-8396-B80983FEBE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080C1DC2-5857-4D38-8396-B80983FEBE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD87DA1-E8F5-4C77-921E-A484D59346FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD87DA1-E8F5-4C77-921E-A484D59346FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD87DA1-E8F5-4C77-921E-A484D59346FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD87DA1-E8F5-4C77-921E-A484D59346FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1896C6B-31BE-4459-ABA1-BC8321406BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1896C6B-31BE-4459-ABA1-BC8321406BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1896C6B-31BE-4459-ABA1-BC8321406BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1896C6B-31BE-4459-ABA1-BC8321406BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{080C1DC2-5857-4D38-8396-B80983FEBE34} = {633BB73E-6714-475E-9461-41E4AA6FB9F5}
+		{8BD87DA1-E8F5-4C77-921E-A484D59346FB} = {B7E7F00A-923E-4075-941C-F8AE8C8D1F68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C813DB39-59A6-4299-A8B1-6871A7DCA2FF}
