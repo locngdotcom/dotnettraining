@@ -12,6 +12,7 @@
       - Filters https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-5.0
 ## 7. [Validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-5.0)
       - Validation https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-5.0
+      - https://fluentvalidation.net/
 ## 8. [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0)
       - Dependency Injection https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0
       - DI & IoC https://alexalvess.medium.com/dependency-injection-and-inversion-of-control-on-net-core-3136fe98b72
