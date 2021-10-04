@@ -11,12 +11,28 @@ namespace DotnetTraining.Filters
 
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            context.HttpContext.Request.Headers.Add("RookieRequest", "ABC");
+            try
+            {
+                context.HttpContext.Request.Headers.Add("RookieRequest", "ABC");
+            }
+            catch (Exception)
+            {
+
+            }
+            
         }
 
         public override void OnActionExecuted(ActionExecutedContext context)
         {
-            context.HttpContext.Response.Headers.Add("RookieReturn", "DEF");
+            try
+            {
+                context.HttpContext.Response.Headers.Add("RookieReturn", "DEF");
+            }
+            catch (Exception)
+            {
+
+            }
+            
         }
     }
 }

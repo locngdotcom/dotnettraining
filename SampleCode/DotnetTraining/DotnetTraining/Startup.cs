@@ -31,7 +31,6 @@ namespace DotnetTraining
             //    config.Filters.Add(new AddHeaderFilter());
             //});
 
-
             services.AddScoped<AddHeaderFilter>();
         }
 
