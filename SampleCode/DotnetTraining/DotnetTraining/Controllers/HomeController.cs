@@ -1,5 +1,7 @@
-﻿using DotnetTraining.Models;
+﻿using DotnetTraining.Filters;
+using DotnetTraining.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -18,8 +20,10 @@ namespace DotnetTraining.Controllers
             _logger = logger;
         }
 
+        [AddHeaderFilter]
         public IActionResult Index()
         {
+            //Request.Headers.TryGetValue()
             return View();
         }
 

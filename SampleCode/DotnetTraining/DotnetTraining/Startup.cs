@@ -1,3 +1,4 @@
+using DotnetTraining.Filters;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,15 @@ namespace DotnetTraining
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            // using Global
+            //services.AddControllers(config =>
+            //{
+            //    config.Filters.Add(new AddHeaderFilter());
+            //});
+
+
+            services.AddScoped<AddHeaderFilter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
