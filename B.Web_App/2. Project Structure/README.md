@@ -1,4 +1,4 @@
-# [2. Project Structure]
+# Create a MVC Project & Project Structure
 
 ![Step 1](https://github.com/locngdotcom/dotnettraining/blob/main/B.Web_App/2.%20Project%20Structure/ps1.PNG)
 

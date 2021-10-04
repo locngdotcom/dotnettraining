@@ -1,7 +1,7 @@
 # [Web App - ASP.NET MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-5.0&tabs=visual-studio)
 ## 1. [Introduce MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0)
       - Introduce MVC https://docs.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-5.0 
-## 2. Project Structure
+## 2. [Project Structure](https://github.com/locngdotcom/dotnettraining/tree/main/B.Web_App/2.%20Project%20Structure)
 ## 3. Razor Engine
       - Razor Engine https://docs.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-5.0
 ## 4. [Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-5.0)
